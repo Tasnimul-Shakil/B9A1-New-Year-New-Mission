@@ -1,47 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    width: 75%;
-    max-width: 1440px;
-    margin: 0 auto;
+/* header related class */
+.header {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.header{
+.header {
+  max-width: 1320px;
+  width: auto;
+  text-align: center;
+  border-radius: 16px 16px 16px 16px;
+  margin: 20px auto;
+}
+.banner-subtitle {
+  color: #ffffff;
+  padding-top: 150px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.banner-title {
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+}
+#banner {
+  margin: 50px 0;
+}
+.container {
+  height: 600px;
+  background-image: url("../resources/banner.png");
+}
+
+/* offer section */
+.section-heading {
+  width: auto;
+  text-align: center;
+  border-radius: 16px 16px 16px 16px;
+  margin-top: 120px;
+}
+/* .offer {
     max-width: 1320px;
     width: auto;
     text-align: center;
     border-radius: 16px 16px 16px 16px;
-    margin: 20px auto;
+  } */
+.offer-title {
+  text-align: center;
+  color: #ff0000;
+  font-size: 88px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 48px;
 }
-.banner-subtitle{
-    color: #ffffff;
-    padding-top: 150px;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    margin-bottom: 16px;
+#offer-description {
+  text-align: center;
+  color: #ff0000;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-bottom: 16px;
 }
-.banner-title{
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
+.offer-info {
+  text-align: center;
+  color: #070211;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
 }
-#banner{
-    margin: 50px 0;
+#offer-image {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
 }
-.container{
-    height: 600px;
-    background-image: url('../resources/banner.png');
-}
-
-
-/* header related class */
-
-
