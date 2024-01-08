@@ -86,3 +86,71 @@
   height: 500px;
   margin-top: 50px;
 }
+/* party join section */
+
+.party-section {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.party-join {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.party-join {
+  max-width: 1320px;
+  width: auto;
+  text-align: center;
+  border-radius: 16px 16px 16px 16px;
+  margin: 100px auto;
+}
+.section-text {
+  width: auto;
+  text-align: center;
+  border-radius: 16px 16px 16px 16px;
+  /* margin-top: 50px; */
+}
+
+.party-section {
+  height: 600px;
+  background-image: url("../resources/Vectorrr.png");
+}
+.party-title {
+  width: 697px;
+  color: #fff;
+  text-align: left;
+  margin: 50px;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.92px;
+}
+.content-description {
+  width: 697px;
+  color: #ffffff;
+  margin: 50px;
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+#content-image {
+  padding-left: 50px;
+}
+.button-primary {
+  font-family: Inter;
+  /* margin-top: 48px; */
+  margin-right: 550px;
+  border-radius: 5px;
+  background: #ff0000;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 35px;
+}
