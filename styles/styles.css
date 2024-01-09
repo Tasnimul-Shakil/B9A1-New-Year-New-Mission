@@ -48,7 +48,7 @@
   width: auto;
   text-align: center;
   border-radius: 16px 16px 16px 16px;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 /* .offer {
     max-width: 1320px;
@@ -155,46 +155,6 @@
   font-weight: 700;
   padding: 15px 35px;
 }
-/* holiday offer section */
-.text {
-  color: #070211;
-}
-
-.holidays-title {
-  margin-top: 16px;
-  margin-bottom: 28px;
-  color: #f00;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-#holidays-description {
-  margin: 28px auto;
-  width: 1068px;
-  color: #8c8b8e;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-}
-.holidays-info {
-  color: #070211;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-#offer-image {
-  width: 800px;
-  height: 500px;
-  margin-top: 50px;
-}
 
 /* best offer section */
 .offer-container {
@@ -250,4 +210,99 @@
   width: 800px;
   height: 500px;
   margin-top: 50px;
+}
+/* holiday offer section */
+.text {
+  color: #070211;
+}
+
+.holidays-title {
+  margin-top: 16px;
+  margin-bottom: 28px;
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+#holidays-description {
+  margin: 28px auto;
+  width: 1068px;
+  color: #8c8b8e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.holidays-info {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#offer-image {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+}
+#circel-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 10px solid #f00;
+  padding: 20px;
+}
+/* Portfolio gallery */
+
+.contain-gallery {
+  padding: 5px;
+  max-width: 1302px;
+  width: 90%;
+  margin: 80px auto;
+}
+.gallery-main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+.column {
+  border: 1px solid #fff;
+  margin: 2px;
+  padding: 1px;
+  transform: 0, 3s;
+}
+.gallery-subtitle {
+  margin-bottom: 16px;
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gallery-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#gallery-description {
+  margin: 16px 266px 16px 0px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
